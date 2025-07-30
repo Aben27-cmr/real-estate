@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'properties', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+.nav-items li{
+    margin: 0 20px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: aqua #aa1b1b;
+    font-weight: 900;
+}
+.nav-items li a:hover{
+    color: blueviolet;
+}
+/* hero section */
+#hero{
+    background-image: url('pexels-binyaminmellish-106399.jpg');
+    background-size: cover;
+    height: 85vh;
+}
+.hero-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.hero-items h1{
+    font-size: 50px;
+    color: blue #b52424;
+    margin-bottom: 20px;
+}
+.hero-items P{
+    font-size: 1.5rem;
+    color: rgb(12, 33, 26);
+    margin-bottom: 30px; 
+}
+.btn{
+    padding: 20px 30px;
+    background-color: aqua #4f2d41;
+    color: aqua #8b1183;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+.gallery img {
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(red, green, blue, alpha);
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* about */
+.about{
+    padding: 50px;
+}
+.about-content{
+    display: flex;
+
+
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    padding: 0 50px;
+}
+.about-text h2{
+    color: #190404;
+    margin-bottom: 12px;
+}
+.about-text p{
+    color: #1c0707;
+    margin-bottom: 17px;
+}
+
+a{
+    text-decoration: none;
+
+}
+.btn2{
+    padding: 10px 30px;
+    background-color: rgb(238, 230, 231);
+    color: chocolate;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/* listings */
+.listing-title{
+    text-align: center;
+    margin: 50px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 300px;
+    background: blanchedalmond;
+    border-radius: 10px;
+    
+}
+.card{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
